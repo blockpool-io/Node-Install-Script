@@ -12,18 +12,29 @@ After installing you will need to configure your config file.
 
 	Change the following in config.mainnet.json :
 “address“: “set your IP”
+
 “database”: “set database name”
+
 “user”: “set database user”
+
 “password”: “set database password”
 
 # Update your secret
 
 "forging": {
-        "force": false,
-        "secret": ["this is my secret"],
-        "access": {
-            "whiteList": [
-                "127.0.0.1"
-            ]
-        }
-    },
+        
+	"force": false,
+       
+       "secret": ["this is my secret"],
+        
+	"access": {
+          
+	  "whiteList": [
+           
+	   "127.0.0.1"
+           
+	   ]
+       
+       }
+  
+  },
